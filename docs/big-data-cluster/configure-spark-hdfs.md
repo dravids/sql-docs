@@ -22,7 +22,7 @@ A Big Data Cluster has four configuration categories:
 - `spark` 
 - `gateway` 
 
-`sql`, `hdfs`, `spark`, `sql` are services. Each service maps to the same named configuration category. All gateway configurations go to category `gateway`. 
+`sql`, `hdfs`, `spark` are services. Each service maps to the same named configuration category. All gateway configurations go to category `gateway`. 
 
 For example, all configurations in service `hdfs` belong to category `hdfs`. Note that all Hadoop (core-site), HDFS and Zookeeper configurations belong to category `hdfs`; all Livy, Spark, Yarn, Hive, Metastore configurations belong to category `spark`. 
 
